@@ -1,0 +1,43 @@
+body {
+  background: black;
+  color: white;
+  font-family: 'Press Start 2P', monospace;
+  text-align: center;
+}
+
+.container {
+  margin-top: 120px;
+}
+
+.glow {
+  font-size: 90px;
+  text-shadow:
+    0 0 10px white,
+    0 0 25px white,
+    0 0 45px white;
+}
+
+.desc {
+  font-size: 10px;
+  opacity: 0.8;
+  margin: 20px;
+}
+
+.buttons {
+  margin-top: 40px;
+}
+
+button {
+  background: black;
+  color: white;
+  border: 2px solid white;
+  padding: 12px 20px;
+  margin: 10px;
+  font-family: 'Press Start 2P';
+  cursor: pointer;
+}
+
+button:hover {
+  background: white;
+  color: black;
+}
